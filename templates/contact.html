@@ -8,16 +8,21 @@
 		<link rel="stylesheet" type="text/css" href="static/style.css">
     	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
-	</head>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head> 
 
 	<body>
-	    <h1>The Life of a Fangirl</h1>
-	    <p class="header">By Nell, featuring Leah and Emma</p>
-	    <ul class="menu">
-	        <li><a href="/index">The Beginning</a></li>
-	        <li><a href="/about">About This Life</a></li>
-	        <li><a href="/contact">This Is Where You Are</a></li>
-	    </ul>
+	    <header = class="clearfix">
+	  		<div class="logo">
+	  			<h1>The Life of a Fangirl</h1>
+	  			<p class="tagline">By Nell, featuring Leah and Emma</p>
+	  		</div>
+		    <ul class="menu">
+		        <li><a href="index">The Beginning</a></li>
+		        <li><a href="about">About This Life</a></li>
+		        <li><a href="contact">This Is Where You Are</a></li>
+		    </ul>
+		</header>
 	    <h2>Contact the Author or Featurettes</h2>
 		<form>
 		    <p>Do you have questions about a fandom or desperately need more information?</p>
@@ -26,7 +31,7 @@
 	    	<br />
 	    	<br />
 	    	<label for="email">Email</label>
-	    	<input type="text" name="email" value="" id="email" />
+	    	<input type="email" name="email" value="" id="email" />
 	    	<br />
 	    	<p>Who would you like to receive the email?</p>
 	    	<input type="radio" name="who" value="Nell" id="Nell" checked="checked">
@@ -69,10 +74,9 @@
 	    	<br />
 	    	<br />
 	    	<input type="submit" value="Send!">
-
 	    </form>
-	    <div class="footer">
+	    <footer>
 	    	<p>&copy; 2017 NELLAY_JAE!</p>
-	    </div>
+	    </footer>
 	</body>
 </html>
