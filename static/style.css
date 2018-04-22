@@ -11,7 +11,7 @@ h1 {
   font-family: 'Satisfy', cursive;
   padding: 7px;
   margin-bottom: 0px;
-  line-height: 50px; 
+  line-height: 50px;
   }
 
 p.tagline {
@@ -28,7 +28,7 @@ body {
   color: #48045e;
   font-family: 'Poppins', sans-serif;
   font-size: 1em;
-  line-height: 1.4em; 
+  line-height: 1.4em;
   margin: 20px;
 }
 
@@ -40,7 +40,7 @@ body {
 
 .menu li {
 	display: block;
-	background-color: #f1e897; 
+	background-color: #f1e897;
 	border: 2px solid #f6dd58;
 	padding: 5px;
 	margin-top: 5px;
@@ -58,7 +58,7 @@ figcaption {
 }
 
 #warning {
-  background-color: #f1e897; 
+  background-color: #f1e897;
   border: 2px solid #f6dd58;
   margin-top: 20px;
   font-style: normal;
@@ -74,7 +74,7 @@ figcaption {
 .btn {
   background-color: #48045e;
   color: #f1e897;
-  border-color: #f6dd58; 
+  border-color: #f6dd58;
 }
 
 main {
