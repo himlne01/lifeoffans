@@ -22,11 +22,11 @@ def collection():
 def musical():
     return render_template('/a-percy-jackson-musical.html')
 
-@app.route("/more-than-a-word-on-culture")
+@app.route("blog/more-than-a-word-on-culture")
 def culture():
     return render_template('/more-than-a-word-on-culture.html')
 
-@app.route("/what-is-bts-doing-now")
+@app.route("/blog/what-is-bts-doing-now")
 def bts():
     return render_template('/what-is-bts-doing-now.html')
 
