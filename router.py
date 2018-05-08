@@ -16,7 +16,7 @@ def contact():
 
 @app.route("/a-collection-of-two-poems-by-emma-and-nell")
 def collection():
-    return render_template('/a-collection-of-two-poems-by-emma-and-nell.html')
+    return render_template('blog/a-collection-of-two-poems-by-emma-and-nell.html')
 
 @app.route("/a-percy-jackson-musical")
 def musical():
@@ -24,12 +24,12 @@ def musical():
 
 @app.route("/more-than-a-word-on-culture")
 def culture():
-    return render_template('/more-than-a-word-on-culture.html')
+    return render_template('blog/more-than-a-word-on-culture.html')
 
 @app.route("/what-is-bts-doing-now")
 def bts():
-    return render_template('/what-is-bts-doing-now.html')
+    return render_template('blog/what-is-bts-doing-now.html')
 
 @app.route("/what-is-kpop")
 def kpop():
-    return render_template('/what-is-kpop.html')
+    return render_template('blog/what-is-kpop.html')
