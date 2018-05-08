@@ -18,7 +18,7 @@ def contact():
 def collection():
     return render_template('/a-collection-of-two-poems-by-emma-and-nell.html')
 
-@app.route("/blog/a-percy-jackson-musical")
+@app.route("blog/a-percy-jackson-musical")
 def musical():
     return render_template('/a-percy-jackson-musical.html')
 
