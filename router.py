@@ -24,7 +24,7 @@ def musical():
 
 @app.route("/blog/more-than-a-word-on-culture")
 def culture():
-    return render_template('blog/a-percy-jackson-musical.html')
+    return render_template('/blog/more-than-a-word-on-culture.html')
 
 @app.route("/blog/what-is-bts-doing-now")
 def bts():
